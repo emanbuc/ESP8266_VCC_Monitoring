@@ -4,6 +4,15 @@
 #define FW_NAME "Vcc monitoring native SDK"
 /* -------------------- */
 
+
+/*
+ Author: Emanuele Buchicchio
+ Created on 06 August 2016 
+ https://github.com/emanbuc/ESP8266_VCC_Monitoring
+ http://blog.emanuelebuchicchio.com
+
+*/
+
 // Expose Espressif SDK functionality - wrapped in ifdef so that it still
 // compiles on other platforms
 #ifdef ESP8266

@@ -1,8 +1,19 @@
 
+
 /* ========= PRODUCT INFORMATION  =========== */
 #define FW_REVISION 2
 #define FW_NAME "Vcc monitoring"
 /* -------------------- */
+
+/*
+ Author: Emanuele Buchicchio
+ Created on 06 August 2016 
+ https://github.com/emanbuc/ESP8266_VCC_Monitoring
+ http://blog.emanuelebuchicchio.com
+
+*/
+ 
+
 ADC_MODE(ADC_VCC);
 float currentVcc = 0.00f;
 float analogValue=0.00f;
